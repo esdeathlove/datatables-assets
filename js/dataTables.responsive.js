@@ -778,7 +778,7 @@ $.extend( Responsive.prototype, {
 
 			// If no records, update the "No records" display element
 			if ( dt.page.info().recordsDisplay === 0 ) {
-				dt.draw(False);
+				dt.draw(false);
 			}
 		}
 	},
